@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/stvdy-business/static/css/main.3b58c369.css",
+    "main.js": "/stvdy-business/static/js/main.118396fa.js",
+    "static/media/headerShape.png": "/stvdy-business/static/media/headerShape.1e12f2f5c692125623df.png",
+    "static/media/shape2.png": "/stvdy-business/static/media/shape2.139c614f336df61ac0ce.png",
+    "static/media/dashboard2.png": "/stvdy-business/static/media/dashboard2.1dcb4021172cd3788044.png",
+    "static/media/dashboard.png": "/stvdy-business/static/media/dashboard.e2cd4010401c1cb6868d.png",
+    "static/media/test.png": "/stvdy-business/static/media/test.6c71168fa21ea0f72b8a.png",
+    "static/media/shape3.png": "/stvdy-business/static/media/shape3.734f1613d26c712e4e80.png",
+    "static/media/topright.PNG": "/stvdy-business/static/media/topright.01c1de5baf909ed25a2b.PNG",
+    "static/media/bottomleft.PNG": "/stvdy-business/static/media/bottomleft.10589e8482ce9ee9b383.PNG",
+    "static/media/topleft.PNG": "/stvdy-business/static/media/topleft.8e04a60b9e685b1f2ad8.PNG",
+    "static/media/bottomright.PNG": "/stvdy-business/static/media/bottomright.cb30e9fdc007c1410a65.PNG",
+    "index.html": "/stvdy-business/index.html",
+    "static/media/Icon awesome-long-arrow-alt-right.svg": "/stvdy-business/static/media/Icon awesome-long-arrow-alt-right.bd3073d4761a9c379714b73bb2803423.svg",
+    "static/media/star.svg": "/stvdy-business/static/media/star.2f3e489a3d280c1ac85e14c099c4e78a.svg",
+    "main.3b58c369.css.map": "/stvdy-business/static/css/main.3b58c369.css.map",
+    "main.118396fa.js.map": "/stvdy-business/static/js/main.118396fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b58c369.css",
+    "static/js/main.118396fa.js"
+  ]
+}
