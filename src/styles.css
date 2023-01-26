@@ -175,6 +175,7 @@ nav ul {
   display: flex;
   justify-content: center;
   padding-top: 150px;
+  flex-wrap: wrap;
 }
 
 /*main styles*/
@@ -254,6 +255,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: left;
   padding-top: 20rem;
+  flex-wrap: wrap;
 }
 .dashboard__two {
   width: 60%;
