@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stvdy-business/static/css/main.76d19c71.css",
-    "main.js": "/stvdy-business/static/js/main.fd7fa87b.js",
+    "main.css": "/stvdy-business/static/css/main.5bedcb40.css",
+    "main.js": "/stvdy-business/static/js/main.dd47cb7d.js",
     "static/media/headerShape.png": "/stvdy-business/static/media/headerShape.1e12f2f5c692125623df.png",
     "static/media/shape2.png": "/stvdy-business/static/media/shape2.139c614f336df61ac0ce.png",
     "static/media/dashboard2.png": "/stvdy-business/static/media/dashboard2.1dcb4021172cd3788044.png",
@@ -15,11 +15,11 @@
     "index.html": "/stvdy-business/index.html",
     "static/media/Icon awesome-long-arrow-alt-right.svg": "/stvdy-business/static/media/Icon awesome-long-arrow-alt-right.bd3073d4761a9c379714b73bb2803423.svg",
     "static/media/star.svg": "/stvdy-business/static/media/star.2f3e489a3d280c1ac85e14c099c4e78a.svg",
-    "main.76d19c71.css.map": "/stvdy-business/static/css/main.76d19c71.css.map",
-    "main.fd7fa87b.js.map": "/stvdy-business/static/js/main.fd7fa87b.js.map"
+    "main.5bedcb40.css.map": "/stvdy-business/static/css/main.5bedcb40.css.map",
+    "main.dd47cb7d.js.map": "/stvdy-business/static/js/main.dd47cb7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.76d19c71.css",
-    "static/js/main.fd7fa87b.js"
+    "static/css/main.5bedcb40.css",
+    "static/js/main.dd47cb7d.js"
   ]
 }
