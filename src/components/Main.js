@@ -33,7 +33,7 @@ export default function Main() {
           <h5>Learn About Our Success</h5>
           <img src={arrow} alt="Your SVG" />
         </div>
-        <div className="main__right" data-aos="fade-left" data-aos-duration="1500">
+        <div className="main__right" data-aos="fade-up" data-aos-duration="1500">
           <div className="row svg__section">
             <div className="column top__left">
               <img src={topLeftSvg} alt="svg" />
