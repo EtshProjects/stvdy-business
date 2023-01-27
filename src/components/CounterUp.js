@@ -9,15 +9,7 @@ export default function CounterUp() {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "space-evenly",
-          color: "#ff6057",
-          padding: "50px",
-        }}
-      >
+      <div className="counter">
         <div className="download">
           <h1>
             {counterOn && (

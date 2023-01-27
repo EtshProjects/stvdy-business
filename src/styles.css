@@ -35,7 +35,7 @@ nav ul {
   text-transform: lowercase !important;
   border-top: 4px solid;
 }
-.nav__links{
+.nav__links {
   padding-left: 0 !important;
   padding-right: 5rem;
 }
@@ -76,6 +76,7 @@ nav ul {
   }
   nav .nav__links {
     display: none;
+    padding-right: 0;
   }
   .nav__button {
     width: 110px;
@@ -251,19 +252,17 @@ nav ul {
   margin-bottom: 1rem;
 }
 @media screen and (max-width: 680px) {
-  .main__section{
+  .main__section {
     flex-direction: column;
   }
-  .main__right{
+  .main__right {
     padding-top: 5rem;
     margin: 0 2rem;
   }
-  .main__left{
+  .main__left {
     margin: 0 2rem;
   }
 }
-
-
 
 /*dashboard__two styles*/
 .dashboard__two-section {
@@ -280,8 +279,8 @@ nav ul {
   width: 60%;
   height: auto;
 }
-.dashboard__two-right{
-  margin-right: 2rem;
+.dashboard__two-right {
+  margin: 2rem;
 }
 .dashboard__two-right .dash {
   width: 79px;
@@ -322,11 +321,11 @@ nav ul {
 .shape__two {
   z-index: -1;
 }
-@media screen and (max-width: 680px){
-  .dashboard__two-section{
+@media screen and (max-width: 680px) {
+  .dashboard__two-section {
     flex-direction: column;
   }
-  .dashboard__two{
+  .dashboard__two {
     width: 80%;
     padding-bottom: 5rem;
   }
@@ -441,10 +440,10 @@ nav ul {
   color: #ff6057;
 }
 @media screen and (max-width: 680px) {
-  .dashboard__three-section{
+  .dashboard__three-section {
     flex-direction: column;
   }
-  .dashboard__three{
+  .dashboard__three {
     max-width: 80%;
   }
 }
@@ -455,7 +454,7 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
 }
-.acc__left{
+.acc__left {
   margin-left: 2rem;
 }
 .acc__left h1 {
@@ -569,17 +568,31 @@ nav ul {
   color: #3b3a3a;
   padding: 5rem 0;
 }
-@media screen and (max-width:680px){
-  .acc__process{
-    flex-direction: column ;
+@media screen and (max-width: 680px) {
+  .acc__process {
+    flex-direction: column;
   }
-  .acc__left{
+  .acc__left {
     padding-bottom: 5rem;
   }
-  .acc__right{
+  .acc__right {
     padding: 0 2rem;
   }
 }
+
+/*counter component styles*/
+.counter {
+  display: flex;
+  justify-content: space-between;
+  color: #ff6057;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.counter div{
+  display: flex;
+  flex-direction: column;
+}
+
 
 /*grow section styles*/
 .grow__business {
@@ -587,6 +600,10 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 5rem;
+}
+.grow__right{
+  margin: 0 2rem;
 }
 .grow__button {
   width: 178px;
@@ -614,6 +631,7 @@ nav ul {
   align-items: center;
   width: 574px;
   height: 359.6px;
+  margin: 0 2rem;
 }
 .test__info {
   display: flex;
@@ -645,6 +663,17 @@ nav ul {
   font-style: normal;
   text-align: left;
   color: #8f8f8f;
+}
+@media screen and (max-width:680px ){
+  .grow__business{
+    flex-direction: column;
+  }
+  .grow__left{
+    flex-direction: column;
+  }
+  .grow__right{
+    margin-top: 5rem;
+  }
 }
 
 /*footer styles*/
