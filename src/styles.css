@@ -35,6 +35,10 @@ nav ul {
   text-transform: lowercase !important;
   border-top: 4px solid;
 }
+.nav__links{
+  padding-left: 0 !important;
+  padding-right: 5rem;
+}
 .nav__item {
   list-style: none;
   color: #ffffff;
@@ -95,10 +99,10 @@ nav ul {
     font-size: 20px;
     padding-bottom: 2rem;
   }
-  .footer{
+  .footer {
     flex-direction: column;
   }
-  .test__info p{
+  .test__info p {
     font-size: 10px;
   }
 }
@@ -178,7 +182,7 @@ nav ul {
   flex-wrap: wrap;
 }
 
-/*main styles*/
+/*main section styles*/
 .main__section {
   display: flex;
   justify-content: space-evenly;
@@ -246,20 +250,38 @@ nav ul {
 .bottom__right p {
   margin-bottom: 1rem;
 }
+@media screen and (max-width: 680px) {
+  .main__section{
+    flex-direction: column;
+  }
+  .main__right{
+    padding-top: 5rem;
+    margin: 0 2rem;
+  }
+  .main__left{
+    margin: 0 2rem;
+  }
+}
+
+
+
+/*dashboard__two styles*/
 .dashboard__two-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-image: url(./images/shape2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
   padding-top: 20rem;
-  flex-wrap: wrap;
 }
 .dashboard__two {
   width: 60%;
   height: auto;
+}
+.dashboard__two-right{
+  margin-right: 2rem;
 }
 .dashboard__two-right .dash {
   width: 79px;
@@ -299,6 +321,15 @@ nav ul {
 
 .shape__two {
   z-index: -1;
+}
+@media screen and (max-width: 680px){
+  .dashboard__two-section{
+    flex-direction: column;
+  }
+  .dashboard__two{
+    width: 80%;
+    padding-bottom: 5rem;
+  }
 }
 
 /*platform overview*/
@@ -365,16 +396,20 @@ nav ul {
 .dashboard__three-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-image: url(./images/shape3.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .dashboard__three {
-  max-width: 30%;
+  max-width: 50%;
   height: auto;
+}
+.dashboard__three-left {
+  margin-left: 2rem;
 }
 .dashboard__three-left h1 {
   padding-top: 2rem;
@@ -405,12 +440,23 @@ nav ul {
   text-align: left;
   color: #ff6057;
 }
+@media screen and (max-width: 680px) {
+  .dashboard__three-section{
+    flex-direction: column;
+  }
+  .dashboard__three{
+    max-width: 80%;
+  }
+}
 
 /*Acceleration process section styles*/
 .acc__process {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.acc__left{
+  margin-left: 2rem;
 }
 .acc__left h1 {
   padding-top: 2rem;
@@ -522,6 +568,17 @@ nav ul {
   text-align: center;
   color: #3b3a3a;
   padding: 5rem 0;
+}
+@media screen and (max-width:680px){
+  .acc__process{
+    flex-direction: column ;
+  }
+  .acc__left{
+    padding-bottom: 5rem;
+  }
+  .acc__right{
+    padding: 0 2rem;
+  }
 }
 
 /*grow section styles*/
