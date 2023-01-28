@@ -113,7 +113,7 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 #root {
   background-image: url(./images/headerShape.png);
@@ -121,6 +121,7 @@ nav ul {
   background-size: 100% 755px;
   height: 100vh;
 }
+
 .head .left__header {
   line-height: 50px;
 }
@@ -181,6 +182,17 @@ nav ul {
   justify-content: center;
   padding-top: 150px;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 680px) {
+  #root {
+    background-size: 150% 755px;
+  }
+  .head{
+    flex-direction: column;
+  }
+  .left__header{
+    margin: 0 2rem 2rem 0rem;
+  }
 }
 
 /*main section styles*/
@@ -588,11 +600,10 @@ nav ul {
   flex-wrap: wrap;
   padding: 50px;
 }
-.counter div{
+.counter div {
   display: flex;
   flex-direction: column;
 }
-
 
 /*grow section styles*/
 .grow__business {
@@ -602,7 +613,7 @@ nav ul {
   align-items: center;
   padding-bottom: 5rem;
 }
-.grow__right{
+.grow__right {
   margin: 0 2rem;
 }
 .grow__button {
@@ -664,14 +675,14 @@ nav ul {
   text-align: left;
   color: #8f8f8f;
 }
-@media screen and (max-width:680px ){
-  .grow__business{
+@media screen and (max-width: 680px) {
+  .grow__business {
     flex-direction: column;
   }
-  .grow__left{
+  .grow__left {
     flex-direction: column;
   }
-  .grow__right{
+  .grow__right {
     margin-top: 5rem;
   }
 }
