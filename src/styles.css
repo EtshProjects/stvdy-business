@@ -591,14 +591,18 @@ nav ul {
     padding: 0 2rem;
   }
 }
+@media screen and (max-width:680px){
+  .vertical__line{
+    margin-bottom: 5rem;
+  }
+}
 
 /*counter component styles*/
 .counter {
   display: flex;
-  justify-content: space-between;
-  color: #ff6057;
-  flex-wrap: wrap;
-  padding: 50px;
+    justify-content: space-evenly;
+    color: #ff6057;
+    flex-wrap: wrap;
 }
 .counter div {
   display: flex;
