@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -43,6 +45,7 @@ nav ul {
   list-style: none;
   color: #ffffff;
   padding: 10px;
+  cursor: pointer;
 }
 .nav__button {
   width: 178px;
@@ -545,6 +548,9 @@ nav ul {
 }
 .acc__toRight {
   margin-left: 4rem;
+}
+.acc__toRight .market__research{
+  padding-bottom: 2rem;
 }
 .circles {
   display: flex;
