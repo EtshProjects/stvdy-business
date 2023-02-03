@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <nav>
         <h2 className="nav__logo">
-          st <span className="v__shape">v</span> dy
+          st <span className="v__shape">V</span> dy
         </h2>
         <ul className="nav__links" id={showLinks ? "hidden" : ""}>
           <li className="nav__item">Browser</li>

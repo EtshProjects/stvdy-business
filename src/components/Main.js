@@ -83,7 +83,7 @@ export default function Main() {
       <div className="dashboard__two-section">
         {/* <img src={shapeTwo} alt="shapeTwo" className="shape__two" /> */}
         <div className="rec"></div>
-        <img src={dashboardTwo} alt="dashboardTwo" className="dashboard__two" data-aos="flip-left" data-aos-duration="1500"/>
+        <img src={dashboardTwo} alt="dashboardTwo" className="dashboard__two" data-aos="fade-right" data-aos-duration="1500"/>
         <div className="dashboard__two-right" data-aos="fade-down-left" data-aos-duration="1500">
           <div className="dash"></div>
           <h1>
@@ -219,7 +219,7 @@ export default function Main() {
       <CounterUp />
       <div className="grow__business">
         <div className="grow__left">
-          <img src={testImg} alt="testimonials" />
+          <img className="grow__left-img" src={testImg} alt="testimonials" />
           <div className="test__info">
             <h1>Florrie Jacobs</h1>
             <h5>CEO of Company</h5>

@@ -8,7 +8,7 @@ import bumble from "../images/client-5.png";
 export default function Header() {
   return (
     <>
-      <div className="container head">
+      <div className=" head">
         <div className="left__header " data-aos="fade-up" data-aos-duration="1500">
           <h4>Advanced Platform</h4>
           <h1>

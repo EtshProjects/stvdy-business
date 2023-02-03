@@ -6,13 +6,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/Main";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Footer from "./components/Footer";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Header />
+      <div className="container">
+        <Navbar />
+        <Header />
+      </div>
       <Main />
       <Footer />
     </>
