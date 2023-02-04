@@ -147,6 +147,7 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5rem;
+  gap: 1rem;
 }
 #root {
   background-image: url(./images/headerShape.png);
