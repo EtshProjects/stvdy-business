@@ -734,8 +734,7 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 574px;
-  height: 359.6px;
+
   margin: 0 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -785,6 +784,7 @@ nav ul {
   }
   .grow__left {
     flex-direction: column;
+    width: 90%;
   }
   .grow__right {
     margin-top: 5rem;
