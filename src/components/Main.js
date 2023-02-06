@@ -84,7 +84,7 @@ export default function Main() {
         {/* <img src={shapeTwo} alt="shapeTwo" className="shape__two" /> */}
         <div className="rec"></div>
         <img src={dashboardTwo} alt="dashboardTwo" className="dashboard__two" data-aos="fade-right" data-aos-duration="1500"/>
-        <div className="dashboard__two-right" data-aos="fade-down-left" data-aos-duration="1500">
+        <div className="dashboard__two-right" data-aos="fade-down-up" data-aos-duration="1500">
           <div className="dash"></div>
           <h1>
             The best business <br /> solution for you
@@ -153,7 +153,7 @@ export default function Main() {
           src={dashboardTwo}
           alt="dashboardTwo"
           className="dashboard__three"
-          data-aos="fade-left" data-aos-duration="2000"
+          data-aos="fade-right" data-aos-duration="2000"
         />
         {/* <img src={shapeThree} alt="shape3" className="shape__three" /> */}
       </div>
@@ -186,7 +186,7 @@ export default function Main() {
             <div className="circle">1</div>
           </div>
           <div className="acc__toRight">
-            <div className="market__research" data-aos="fade-left" data-aos-duration="1600">
+            <div className="market__research" data-aos="fade-right" data-aos-duration="1600">
               <h1>Market Research</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed{" "}
