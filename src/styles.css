@@ -145,7 +145,7 @@ nav ul {
   }
 }
 @media screen and (max-width: 767px) {
-  nav{
+  nav {
     gap: 0 !important;
   }
 }
@@ -697,6 +697,15 @@ nav ul {
 .counter div {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+@media screen and (max-width: 520px) {
+  .counter {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center !important;
+  }
 }
 
 /*grow section styles*/
