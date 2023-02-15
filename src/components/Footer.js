@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="right__footer">
         <h6>Sign up for Special Offers!</h6>
         <form action="#" className="custom__search">
-          <input type="text"  className="custom__search-input"/>
+          <input type="text"  className="custom__search-input" placeholder="Mail"/>
           <button className="custom__search-button">Subscribe</button>
         </form>
       </div>

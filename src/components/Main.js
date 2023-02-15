@@ -15,7 +15,11 @@ export default function Main() {
   return (
     <>
       <div className="container main__section">
-        <div className="main__left" data-aos="fade-right" data-aos-duration="1500">
+        <div
+          className="main__left"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="dash"></div>
           <h1>
             The best business <br /> solution for you
@@ -33,7 +37,11 @@ export default function Main() {
           <h5>Learn About Our Success</h5>
           <img src={arrow} alt="Your SVG" />
         </div>
-        <div className="main__right" data-aos="fade-up" data-aos-duration="1500">
+        <div
+          className="main__right"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div className="row svg__section">
             <div className="column top__left">
               <img src={topLeftSvg} alt="svg" />
@@ -83,8 +91,18 @@ export default function Main() {
       <div className="dashboard__two-section">
         {/* <img src={shapeTwo} alt="shapeTwo" className="shape__two" /> */}
         <div className="rec"></div>
-        <img src={dashboardTwo} alt="dashboardTwo" className="dashboard__two" data-aos="fade-right" data-aos-duration="1500"/>
-        <div className="dashboard__two-right" data-aos="fade-down-up" data-aos-duration="1500">
+        <img
+          src={dashboardTwo}
+          alt="dashboardTwo"
+          className="dashboard__two"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        />
+        <div
+          className="dashboard__two-right"
+          data-aos="fade-down-up"
+          data-aos-duration="1500"
+        >
           <div className="dash"></div>
           <h1>
             The best business <br /> solution for you
@@ -116,7 +134,11 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <div className="img__slider" data-aos="flip-right" data-aos-duration="1500">
+      <div
+        className="img__slider"
+        data-aos="flip-right"
+        data-aos-duration="1500"
+      >
         <Carousel>
           <div>
             <img src={dashboardTwo} alt="slider" />
@@ -129,9 +151,13 @@ export default function Main() {
           </div>
         </Carousel>
       </div>
-      <div className="dashboard__three-section " >
+      <div className="dashboard__three-section ">
         <div className="rec"></div>
-        <div className="dashboard__three-left" data-aos="fade-up" data-aos-duration="1500">
+        <div
+          className="dashboard__three-left"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div className="dash"></div>
           <h1>
             The best business <br /> solution for you
@@ -153,12 +179,17 @@ export default function Main() {
           src={dashboardTwo}
           alt="dashboardTwo"
           className="dashboard__three"
-          data-aos="fade-right" data-aos-duration="2000"
+          data-aos="fade-right"
+          data-aos-duration="2000"
         />
         {/* <img src={shapeThree} alt="shape3" className="shape__three" /> */}
       </div>
       <div className="acc__process">
-        <div className="acc__left" data-aos="fade-right" data-aos-duration="2000">
+        <div
+          className="acc__left"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <h1>
             The best business <br /> solution for you
           </h1>
@@ -186,7 +217,11 @@ export default function Main() {
             <div className="circle">1</div>
           </div>
           <div className="acc__toRight">
-            <div className="market__research" data-aos="fade-right" data-aos-duration="1600">
+            <div
+              className="market__research"
+              data-aos="fade-right"
+              data-aos-duration="1600"
+            >
               <h1>Market Research</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed{" "}
@@ -194,7 +229,11 @@ export default function Main() {
                 <br /> magna aliquyam erat, sed diam voluptua.
               </p>
             </div>
-            <div className="market__research" data-aos="fade-right" data-aos-duration="1800">
+            <div
+              className="market__research"
+              data-aos="fade-right"
+              data-aos-duration="1800"
+            >
               <h1>Market Research</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed{" "}
@@ -202,7 +241,11 @@ export default function Main() {
                 <br /> magna aliquyam erat, sed diam voluptua.
               </p>
             </div>
-            <div className="market__research" data-aos="fade-up" data-aos-duration="2000">
+            <div
+              className="market__research"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <h1>Market Research</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed{" "}
@@ -217,26 +260,91 @@ export default function Main() {
         Don't Just Take <br /> our Word for it!
       </h1>
       <CounterUp />
+
       <div className="grow__business">
-        <div className="grow__left">
-          <img className="grow__left-img" src={testImg} alt="testimonials" />
-          <div className="test__info">
-            <h1>Florrie Jacobs</h1>
-            <h5>CEO of Company</h5>
-            <p>
-              Lorem ipsum dolor sit amet, <br /> consetetur sadipscing elitr,
-              sed <br /> diam nonumy eirmod tempor <br /> invidunt ut labore et
-              dolore <br /> magna aliquyam erat
-            </p>
-            <div className="stars">
-              <img src={starSvg} alt="" />
-              <img src={starSvg} alt="" />
-              <img src={starSvg} alt="" />
-              <img src={starSvg} alt="" />
-              <img src={starSvg} alt="" />
+        <Carousel showArrows={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        interval={6100}>
+          <div>
+            <div className="grow__left">
+              <img
+                className="grow__left-img"
+                src={testImg}
+                alt="testimonials"
+              />
+              <div className="test__info">
+                <h1>Florrie Jacobs</h1>
+                <h5>CEO of Company</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br /> consetetur sadipscing
+                  elitr, sed <br /> diam nonumy eirmod tempor <br /> invidunt ut
+                  labore et dolore <br /> magna aliquyam erat
+                </p>
+                <div className="stars">
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          <div>
+            <div className="grow__left">
+              <img
+                className="grow__left-img"
+                src={testImg}
+                alt="testimonials"
+              />
+              <div className="test__info">
+                <h1>Florrie Jacobs</h1>
+                <h5>CEO of Company</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br /> consetetur sadipscing
+                  elitr, sed <br /> diam nonumy eirmod tempor <br /> invidunt ut
+                  labore et dolore <br /> magna aliquyam erat
+                </p>
+                <div className="stars">
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="grow__left">
+              <img
+                className="grow__left-img"
+                src={testImg}
+                alt="testimonials"
+              />
+              <div className="test__info">
+                <h1>Florrie Jacobs</h1>
+                <h5>CEO of Company</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, <br /> consetetur sadipscing
+                  elitr, sed <br /> diam nonumy eirmod tempor <br /> invidunt ut
+                  labore et dolore <br /> magna aliquyam erat
+                </p>
+                <div className="stars">
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                  <img src={starSvg} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </Carousel>
+        <ul className="control-dots"></ul>
         <div className="grow__right">
           {" "}
           <h1>

@@ -330,6 +330,12 @@ nav ul {
 .bottom__right p {
   margin-bottom: 1rem;
 }
+.main__right h5 {
+  color: #3b3a3a;
+}
+.main__right p {
+  color: #8f8f8f;
+}
 @media screen and (max-width: 680px) {
   .main__section {
     flex-direction: column;
@@ -472,10 +478,17 @@ nav ul {
 .carousel.carousel-slider .control-arrow {
   display: none !important;
 }
-.carousel .slide img {
+.grow__business .img__slider .carousel .slide img {
   width: 65% !important;
   padding-bottom: 1rem;
 }
+.carousel .slide img {
+  width: fit-content !important;
+}
+
+
+
+
 
 /*dashboard__three styles*/
 .dashboard__three-section {
@@ -811,6 +824,11 @@ nav ul {
     width: 20% !important;
   }
 }
+@media (max-width:1200px){
+  .test__info p{
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .grow__left .grow__left-img {
     width: 30%;
@@ -821,9 +839,49 @@ nav ul {
     line-height: normal;
   }
 }
+
 @media screen and (max-width: 767px) {
   .test__info p {
     font-size: 10px !important;
+  }
+}
+/*testimonials styles*/
+.grow__business .carousel-root {
+  width: 50% !important;
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.grow__business .carousel .slider-wrapper{
+  height: 370px !important;
+}
+.grow__business .myCarousel {
+  background: #fafafa;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ddd;
+  height: 286px;
+}
+
+.grow__business .carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
+}
+.grow__business .carousel .control-dots .dot {
+  background-color: #ff6057 !important;
+}
+
+
+@media (max-width:1260px){
+  .grow__business .carousel .slider-wrapper{
+    height: 630px !important;
   }
 }
 
@@ -883,7 +941,7 @@ nav ul {
 }
 .custom__search {
   position: relative;
-  width: 300px;
+  width: 450px;
 }
 .custom__search-input {
   width: 100%;
@@ -908,4 +966,19 @@ nav ul {
   border-radius: 100px;
   z-index: 2;
   width: 8rem;
+}
+@media (max-width: 1200px) {
+  .custom__search {
+    width: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  .custom__search {
+    width: 350px;
+  }
+}
+@media (max-width: 767px) {
+  .custom__search {
+    width: 100%;
+  }
 }
