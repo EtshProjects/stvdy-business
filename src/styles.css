@@ -809,6 +809,11 @@ nav ul {
   padding: 0 1rem;
 }
 @media screen and (max-width: 680px) {
+  .grow__business .carousel-root {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .grow__business {
     flex-direction: column;
   }
@@ -819,9 +824,9 @@ nav ul {
   .grow__right {
     margin-top: 5rem;
   }
-  .grow__left .grow__left-img {
-    width: 20% !important;
-  }
+  /* .grow__left .grow__left-img {
+    width: 60% !important;
+  } */
 }
 @media (max-width: 1200px) {
   .test__info p {
@@ -846,9 +851,9 @@ nav ul {
 }
 /*testimonials styles*/
 .grow__business .carousel-root {
-  width: 50% !important;
-  margin: auto !important;
-  margin-top: 3% !important;
+  width: 50% ;
+  margin: auto ;
+  margin-top: 3% ;
 }
 
 .grow__business .carousel .slider-wrapper {
